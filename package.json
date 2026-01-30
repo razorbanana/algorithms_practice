@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "alg1": "ts-node src/binarySearch/runBinarySearch.ts"
+    "alg1": "ts-node src/binarySearch/runBinarySearch.ts",
+    "alg2": "ts-node src/selectionSort/runSelectionSort.ts"
   },
   "repository": {
     "type": "git",
