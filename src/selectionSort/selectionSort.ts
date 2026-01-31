@@ -11,7 +11,7 @@ const findSmallestIndex: <T>(targetArray: T[], compareFunction: (x1: T, x2: T) =
     return prioritizedItemIndex
 }
 
-const SelectionSort: <T>(targetArray: T[], compareFunction: (x1: T, x2: T) => boolean) => T[] = (targetArray, compareFunction) => {
+const selectionSort: <T>(targetArray: T[], compareFunction: (x1: T, x2: T) => boolean) => T[] = (targetArray, compareFunction) => {
     const newArray = []
     const copiedTargetArray = [...targetArray]
     let prioritizedItemIndex = 0
@@ -27,4 +27,4 @@ const SelectionSort: <T>(targetArray: T[], compareFunction: (x1: T, x2: T) => bo
     return newArray
 }
 
-export default SelectionSort
+export default selectionSort

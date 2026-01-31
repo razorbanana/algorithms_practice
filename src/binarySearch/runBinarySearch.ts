@@ -1,4 +1,4 @@
-import BinarySearch from "./binarySearch.ts"
+import binarySearch from "./binarySearch.ts"
 
 const eval_function: (item:number, target:number) => -1 | 0 | 1 = (item, target) => {
     if (item > target){
@@ -16,7 +16,7 @@ const results: Array<number|null> = []
 
 
 targets.forEach(target => {
-    results.push(BinarySearch<number>(array, target, eval_function))
+    results.push(binarySearch<number>(array, target, eval_function))
 })
 
 results.map(result => console.log(result))

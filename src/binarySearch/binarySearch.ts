@@ -1,4 +1,4 @@
-const BinarySearch: <T>(array: T[], target: T, eval_function: (item:T, target:T) => -1 | 0 | 1) => number | null = (array, target, eval_function) => {
+const binarySearch: <T>(array: T[], target: T, eval_function: (item:T, target:T) => -1 | 0 | 1) => number | null = (array, target, eval_function) => {
     let lowest = 0
     let highest = array.length - 1
     let middle = -1
@@ -22,4 +22,4 @@ const BinarySearch: <T>(array: T[], target: T, eval_function: (item:T, target:T)
     return null
 }
 
-export default BinarySearch
+export default binarySearch
