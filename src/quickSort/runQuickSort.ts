@@ -1,4 +1,4 @@
-import quickSort from "./QuickSort.ts";
+import quickSort from "./quickSort.ts";
 
 const targetArray = [5, 12, 5, 90, 3, 22, 64, 18, 3, 47]
 
