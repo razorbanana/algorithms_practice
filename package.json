@@ -9,7 +9,8 @@
     "alg1": "ts-node src/binarySearch/runBinarySearch.ts",
     "alg2": "ts-node src/selectionSort/runSelectionSort.ts",
     "alg3": "ts-node src/quickSort/runQuickSort.ts",
-    "queue": "ts-node src/queue/runQueue.ts"
+    "queue": "ts-node src/queue/runQueue.ts",
+    "graph": "ts-node src/graph/runGraph.ts"
   },
   "repository": {
     "type": "git",
