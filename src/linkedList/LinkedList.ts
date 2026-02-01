@@ -27,7 +27,7 @@ const Node = <T>(value: T) => {
     }
 }
 
-const LinkedList = <T>() => {
+const LinkedList = <T>(initArray: T[] = []) => {
     let head: Node<T> | null = null
     let tail: Node<T> | null = null
 
@@ -42,15 +42,20 @@ const LinkedList = <T>() => {
         }
     }
 
+    initArray.forEach(item => push(item))
+
     const removeHead = () => {
         if (head !== null){
-           head = head.getNext()
+            const value = head.getValue()
+            head = head.getNext()
+            return value
         }
+        return null
     }
 
     const print = (node: Node<T> | null = head) => {
         if (node !== null){
-            console.log(node.getValue())
+            console.log(`value: ${node.getValue()}`)
             print(node.getNext())
         }else{
             console.log("")

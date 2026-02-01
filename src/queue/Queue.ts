@@ -1,3 +1,4 @@
+
 const Queue = <T>(basicArray:T[]=[], cleanup:number=50) => {
     const arr: T[] = [...basicArray]
     let head = 0
