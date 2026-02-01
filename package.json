@@ -10,7 +10,8 @@
     "alg2": "ts-node src/selectionSort/runSelectionSort.ts",
     "alg3": "ts-node src/quickSort/runQuickSort.ts",
     "queue": "ts-node src/queue/runQueue.ts",
-    "graph": "ts-node src/graph/runGraph.ts"
+    "graph": "ts-node src/graph/runGraph.ts",
+    "ll": "ts-node src/linkedList/runLinkedList.ts"
   },
   "repository": {
     "type": "git",
